@@ -60,15 +60,15 @@ div {
     display: block;
 }
 
+a{
+    color:black;
+    text-decoration:none;
+}
+
 a:-webkit-any-link {
     color: -webkit-link;
     cursor: pointer;
     text-decoration: underline;
-}
-
-a {
-    color:black;
-    text-decoration:none;
 }
 
 .HeaderLogo__image--pc {
@@ -90,12 +90,6 @@ img {
     display: none;
     height: 16px;
     width: auto;
-}
-
-@media screen and (max-width: 767px){
-.HeaderLogo__image--sp {
-    display: block;
-}
 }
 
 .HeaderContainer>*:last-child {
@@ -257,10 +251,6 @@ h2 {
     margin-right: 0;
 }
 
-.FirstViewContent__buttons {
-    display: flex;
-}
-
 .FirstViewContent__buttons a:first-of-type {
     margin-right: 15px;
     width: 306px;
@@ -290,11 +280,6 @@ h2 {
     border: 1px solid #e0e0e0;
     color: #000;
     width: 176px;
-}
-
-.FirstViewCaption {
-    color: #a2a2a4;
-    font-size:12px;
 }
 
 .FirstViewCaption a {
@@ -455,6 +440,11 @@ p {
 }
 }
 
+@media screen and (max-width: 767px){
+.HeaderLogo__image--sp {
+    display: block;
+}
+}
 
 @media screen and (max-width: 1080px){
 .HeaderNavHamburger {
