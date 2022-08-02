@@ -251,6 +251,15 @@ h2 {
     display: flex;
 }
 
+.FirstViewContent--buttonstop:hover{
+    opacity: 0.5 ;
+
+}
+
+.FirstViewContent--buttonsend:hover{
+    opacity: 0.5 ;
+}
+
 .FirstViewContent__buttons a:first-of-type {
     margin-right: 15px;
     width: 306px;
